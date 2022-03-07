@@ -1,0 +1,612 @@
+/* *
+{
+    border: 1px solid;
+} */
+body
+{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.headbar
+{
+    padding: 60px 70px;
+    display: flex;
+    justify-content: space-between;     
+    margin-bottom: 70px;
+}
+.logo
+{
+    width: 180px;
+    height: 30px;
+}
+.hbutton
+{  
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    color: hsl(321, 84%, 60%);
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 10px 40px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 30px 0 rgba(0, 0, 0, 0.19);
+}
+.bod1head
+{
+    font-size: 40px;
+    font-weight: 800;
+}
+.bod1 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boddesc
+{
+    color: hsl(208, 11%, 55%);
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 510px;
+    text-align: center;
+}
+.bod1button
+{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    cursor: pointer;
+    padding: 22px 100px;
+    background-color: hsl(208, 11%, 55%);
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bod1image
+{
+    max-width: 850px;
+    margin-bottom: 110px;
+}
+.boxes
+{
+    display: flex;
+    margin-bottom: 100px;
+}
+.number
+{
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+}
+.text
+{
+    font-size: 20px;    
+    color: hsl(208, 11%, 55%);
+    text-align: center;
+}
+#one
+{
+    margin-right: 300px;
+}
+.iconcommunities
+{
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+}
+.grey
+{
+    background-color: hsl(209, 100%, 98%);
+    width: 100%;
+}
+.open
+{
+    width: 100%;
+}
+
+.box2
+{
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+}
+.box2text
+{
+    max-width: 60%;
+    padding: 110px 16% 0 10%;
+}
+.box2text-head
+{
+    font-size: 28px;
+    font-weight: 700;
+}
+.box2text-desc
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(208, 11%, 55%);
+    line-height: 1.6;
+}
+.box2image
+{
+    max-width: 32%;
+    height: auto;
+    margin: 30px;
+    
+}
+#box3
+{
+    flex-direction: row-reverse;
+    margin-top: 0;
+}
+.box3image
+{
+    width: 32%;
+    height: auto;
+    margin: 50px 50px 50px 120px;
+}
+
+#box3text
+{
+    padding: 100px 3% 0 13%;
+}
+#box4text
+{
+    max-width: 30%;
+}
+#box4
+{
+    width: 100%;
+    background-color: hsl(209, 100%, 98%);
+}
+.box5
+{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #fff;
+}
+.box5head
+{
+    font-size: 29px;
+    font-weight: 900;
+}
+#box5button
+{
+    font-size: 17px;
+    padding: 18px 65px;
+}
+.close
+{
+    width: 100%;
+}
+.dark
+{
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 10%;
+}
+.pt1
+{
+    width: 40%;
+}
+.darklogo
+{
+    width: 200px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.desc
+{
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 83%;
+    margin: 0 0px 15px 0;
+}
+.call
+{
+    display: flex;
+    margin-top: 10px;
+}
+.call-image
+{
+    width: 15px;
+    height: 15px;
+}
+.call-desc
+{
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 15px 25px;
+}
+.hnews
+{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 0;
+}
+.pp
+{
+    display: flex;
+}
+.emptyfield
+{
+    width: 65%;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 30px 0 0;
+}
+.btn 
+{
+    color: #fff;
+    background-color: hsl(321, 100%, 78%);
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 30%;
+    font-size: 13px;
+}
+
+@media (min-width:450px) 
+{
+    .open-mobile
+    {
+        display: none;
+    }
+}
+
+@media (max-width:1100px) 
+{
+    .bod1head
+    {
+        font-size: 30px;
+    }
+    .headbar
+    {
+        margin-bottom: 0;
+    }
+    .boddesc
+    {
+        font-size: 14px;
+    }
+    .bod1button
+    {
+        padding: 17px 70px;
+    }
+    .bod1image
+    {
+        max-width: 90%;
+    }
+    #one
+    {
+        margin-right: 30%;
+    }
+    .boxes
+    {
+        width: 90%;
+    }
+}
+
+@media (max-width:750px) 
+{
+       .number
+       {
+           font-size: 60px;
+       }
+       .boxes
+       {
+           width: 80%;
+       }
+       .box2text-head
+       {
+           font-size: 20px;
+       }
+       .box2text-desc
+       {
+           font-size: 11px;
+       }
+       .box2image
+       {
+           width: ;
+       }
+       .box2text
+       {
+           padding-top: 30px;
+       }
+       #box3text
+       {
+           padding-top: 50px;
+       }
+       .bod1head
+       {
+           font-size: 25px;
+       }
+       .boddesc
+       {
+           font-size: 12px;
+       }
+       .box5head
+       {
+           font-size: 25px;
+           margin: 0;
+       }
+       .btn
+       {
+           font-size: 9px;
+       }
+}
+
+@media (max-width:600px)
+{
+    .headbar
+    {
+        padding: 40px 30px
+    }
+    .logo
+    {
+        width: 120px;
+        height: 20px;
+    }
+    .hbutton
+    {
+        padding: 8px 30px;
+    }
+    .bod1head
+    {
+        font-size: 16px;
+    }
+    .boddesc
+    {
+        font-size: 10px;
+        width: 70%;
+    }
+    .bod1button
+    {
+        padding: 11px 50px;
+        font-size: 12px;
+    }
+    .bod1image
+    {
+        width: 80%;
+    }
+    .number
+    {
+        font-size: 50px;
+    }
+    .text
+    {
+        font-size: 15px;
+    }
+    .box5head
+    {
+        font-size: 20px;
+    }
+    .box5
+    {
+        width: 100%;
+        padding: 50px 0 0 0;
+    }
+    #box5button
+    {
+        font-size: 13px;
+        margin-bottom: 50px;
+        padding: 14px 50px;
+    }
+    .darklogo
+    {
+        margin-top: 0;
+        margin-bottom: 20px;
+        width: 150px;
+    }
+    .desc
+    {
+        font-size: 12px;
+    }
+    .hnews
+    {
+        font-size: 19px;
+    }
+    .call-desc
+    {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .emptyfield
+    {
+        margin-top: 0;
+        height: 26px;
+        width: 80%;
+    }
+    .btn
+    {
+        margin-top: 0;
+        height: 26px;
+        width: 40%;
+        font-size: 7px;
+    }
+
+}
+
+@media (max-width:450px)
+{
+    .hbutton
+    {
+        padding: 7px 20px;
+        font-size: 9px;
+    }
+    .headbar
+    {
+        margin-bottom: 50px;
+    }
+    .bod1head
+    {
+        width: 70%;
+        text-align: center;
+        font-size: 25px;
+    }
+    .boddesc
+    {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .bod1button
+    {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        padding: 10px 35px;
+    }
+    .boxes
+    {
+        flex-direction: column;
+    }
+    #one
+    {
+        margin: 0 0 100px 0;
+    }
+    .one 
+    {
+        text-align: center;
+    }
+    .iconcommunities
+    {
+        margin-left: 0;
+        margin-right: 100px;
+        width: 20px;
+    }
+    .open
+    {
+        display: none;
+    }
+    .open-mobile
+    {
+        width: 100%;
+    }
+    .box2
+    {
+        flex-direction: column-reverse;
+    }
+    .box2image
+    {
+        margin: 70px auto;
+        max-width: 75%;
+    }
+    .box2text
+    {
+        margin: 20px auto;
+        text-align: center;
+        padding: 40px 0 50px 0;
+        max-width: 80%;
+    }
+    .box2text-head
+    {
+        font-size: 30px;
+    }
+    .box2text-desc
+    {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    #box4text
+    {
+        max-width: 80%;
+    }
+    .box3image
+    {
+        margin: 70px auto;
+        width: 75%;
+    }
+    #box3
+    {
+        flex-direction: column-reverse;
+    }
+    #box3text
+    {
+        padding: 0;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .box5
+    {
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+    .box5head
+    {
+        font-size: 30px;
+    }
+    #box5button
+    {
+        margin-top: 50px;
+        padding: 16px 60px;
+        font-size: 16px;
+    }
+    .dark
+    {
+        flex-direction: column-reverse;
+    }
+    .hnews
+    {
+        font-size: 25px;
+    }
+    .desc
+    {
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 1.7;
+        width: 100%;
+    }
+    .pt1
+    {
+        width: 100%;
+    }
+    .pp
+    {
+        flex-direction: column;
+    }
+    .emptyfield
+    {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        height: 50px;
+        width: 100%;
+    }
+    .dark
+    {
+        padding: 60px 6%;
+    }
+    .btn
+    {
+        height: 50px;
+        font-size: 15px;
+        width: 45%;
+        margin-left: auto;
+        margin-bottom: 100px;
+    }
+    .darklogo
+    {
+        width: 200px;
+    }
+    .call-desc
+    {
+        font-size: 18px;
+    }
+    .call-image
+    {
+        width: 17px;
+        height: 17px;
+    }
+    #mail
+    {
+        margin-top: 3px;
+    }
+}
